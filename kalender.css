@@ -19,11 +19,14 @@ div{
     background-repeat: no-repeat;
 }
 table{
-    border-radius: 15px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 2px;
     border-color: #000000;
-}
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #ECEFCF;
+    }
+
 tbody{
     width: 800px;
     height: 638px;
@@ -45,12 +48,13 @@ td{
     border: 2px solid black;
     font-family: 'Lemon', serif;
     font-size: 26px;
-    color:rgb(220, 20, 60);
     text-align: end;
     background-image: url("https://cdn.pixabay.com/photo/2016/06/20/03/21/rainbow-1467988_1280.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    text-shadow: 1px 2px 5px rgb(160, 12, 42);
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
 }
 tr{
     position: relative;
