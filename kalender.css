@@ -18,13 +18,15 @@ div{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-tbody{
-    width: 800px;
-    height: 638px;
+table{
     border-radius: 15px;
     border-style: solid;
     border-width: 10px;
     border-color: #000000;
+}
+tbody{
+    width: 800px;
+    height: 638px;
 }
 td{
     font-family: 'Lemon', serif;
